@@ -7,5 +7,21 @@
 
 import Foundation
 
-print("Hello, World!")
+print("Здравствуйте! Как Ваш юзернейм?")
+print("Мой юзернейм: ", terminator: "")
+var name = readLine()!
+var punkt: String?
 
+repeatMenu()
+
+while punkt != "0" {
+    if punkt == "1" {
+        changeName()
+    } else if punkt == "2" {
+        foobar()
+    } else {
+        print("Такого пункта нету")
+    }
+    repeatMenu()
+}
+print("До свидания, \(name)!")

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		FF1F0E7B257B7C970098D8E7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1F0E7A257B7C970098D8E7 /* main.swift */; };
+		FF1F0E83257BAAD80098D8E7 /* menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1F0E82257BAAD80098D8E7 /* menu.swift */; };
+		FF1F0E86257BB3EC0098D8E7 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1F0E85257BB3EC0098D8E7 /* user.swift */; };
+		FF1F0E89257BC6930098D8E7 /* foobar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1F0E88257BC6930098D8E7 /* foobar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		FF1F0E77257B7C970098D8E7 /* third_lesson */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = third_lesson; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1F0E7A257B7C970098D8E7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FF1F0E82257BAAD80098D8E7 /* menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu.swift; sourceTree = "<group>"; };
+		FF1F0E85257BB3EC0098D8E7 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		FF1F0E88257BC6930098D8E7 /* foobar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foobar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				FF1F0E7A257B7C970098D8E7 /* main.swift */,
+				FF1F0E82257BAAD80098D8E7 /* menu.swift */,
+				FF1F0E85257BB3EC0098D8E7 /* user.swift */,
+				FF1F0E88257BC6930098D8E7 /* foobar.swift */,
 			);
 			path = third_lesson;
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF1F0E89257BC6930098D8E7 /* foobar.swift in Sources */,
+				FF1F0E83257BAAD80098D8E7 /* menu.swift in Sources */,
 				FF1F0E7B257B7C970098D8E7 /* main.swift in Sources */,
+				FF1F0E86257BB3EC0098D8E7 /* user.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
