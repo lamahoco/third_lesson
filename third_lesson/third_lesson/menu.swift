@@ -14,6 +14,7 @@ func menu(_ name: String) {
     print("|      0. ВЫХОД        |")
     print("|   1. Поменять имя    |")
     print("|      2. foobar       |")
+    print("|      3. минимум      |")
     print("+----------------------+")
     print("\(name), выберите пункт: ", terminator: "")
 }

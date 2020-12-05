@@ -19,6 +19,8 @@ while punkt != "0" {
         changeName()
     } else if punkt == "2" {
         foobar()
+    } else if punkt == "3" {
+        minimum()
     } else {
         print("Такого пункта нету")
     }
